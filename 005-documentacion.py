@@ -7,7 +7,7 @@
 # Las funciones de tratamiento de bases de datos se encuentran en libreria externa
 from funcionesbasededatos import presentaMenu,insertar,seleccionar, actualizar,eliminar
 
-print("Gestion de portafolio v0.1")
+print("Gestion de portafolio v0.2")
 while True:                                       # Usamos while para entrar en un bucle infinito
   presentaMenu()
   opcion = int(input("Escoge una opcion: "))
